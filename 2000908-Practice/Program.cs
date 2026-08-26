@@ -1,10 +1,16 @@
-﻿namespace _2000908_Practice
+﻿
+namespace Practice
 {
-    internal class Program
+    class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine("나의 이력서");
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.SetCursorPosition(10, 5);
+            Console.WriteLine("이름:오희성");
+
         }
     }
 }
